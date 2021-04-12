@@ -9,6 +9,13 @@ This tutorial will get you running a React web app from inside a container. Runn
 * Git
 * Docker
 
+This app comes with `create-react-app` source files. If you want to do this yourself (i.e. to use a later version), remove the `my-app` folder and create a new React app with:
+
+```bash
+$ rm -rf my-app
+$ npx create-react-app my-app
+```
+
 ### Instructions
 
 1. Clone the repo onto your local computer. 
