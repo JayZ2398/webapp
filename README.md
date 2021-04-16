@@ -2,16 +2,24 @@
 
 ## Development
 
-This tutorial will get you running a React web app from inside a container. Running code from inside a container, rather than just from your computer, will ensure that if the code works, then it will work anywhere (as long as it's running inside the same container). This won't change how you write code: you'll still be editing files some place on your computer. The only difference is where the code *runs*.
+This repository template will get you up and running a React web app from inside a container. A container is like a mini-computer that runs virtually inside your computer. For example, even if your computer uses Windows, you can run an Ubunutu (Linux) container. Running code from inside a container, rather than just from your computer, will ensure that if the code works, then it will work anywhere (as long as it's running inside the same container). This won't change how you write code: you'll still be editing files some place on your computer. The only difference is where the code *runs*.
 
-### Prerequisites
+### What's included by default?
+
+You get the basic React app with the following packages installed:
+
+* Typescript (which you can choose to use by naming your files `<name>.tsx` instead of `<name>.jsx`)
+* ESLint (AirBnb config, which you can use to format your code to make it pretty)
+* Jest (a testing library)
+
+### <a id="Prerequisites"></a> Prerequisites
 
 * Git
 * Docker
 
-This app comes with `create-react-app` source files. If you want to do this yourself (i.e. to use a later version), remove the `my-app` folder and create a new React app with:
+This app comes with `create-react-app` source files. If you want to do this yourself (i.e. to use a later version) or remove the [extra packages I've added](#Prerequisites), remove the `my-app` folder and create a new React app with:
 
-```bash
+``` bash
 $ rm -rf my-app
 $ npx create-react-app my-app
 ```
