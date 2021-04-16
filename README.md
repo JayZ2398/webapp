@@ -12,7 +12,7 @@ You get the basic React app with the following packages installed:
 * ESLint (AirBnb config, which you can use to format your code to make it pretty)
 * Jest (a testing library)
 
-You also get my VSCode workspace settings so that code formatting and linting works nicely out of the box.
+You also get some VSCode workspace settings so that code formatting and linting works nicely out of the box.
 
 ### <a id="Prerequisites"></a> Prerequisites
 
@@ -57,3 +57,7 @@ react-ui    |   Local: http://localhost:3000
 ```
 
 6. In your browser, open http://localhost:3000. You should see your running React app.
+
+7. When you're done, open the shell where the container was running and hit <kbd>Ctrl</kbd>+<kbd>C</kbd>.
+
+Now that you're set up, you can just follow steps 4 through 7 for regular container use.
